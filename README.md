@@ -14,7 +14,7 @@ Full exploration of the dataset is available in the analysis.ipy notebook.
 ## Video Characteristics
 - Videos are associated with tags encoded from 0 to 30.
 - The tag distribution shows low diversity: tag 11 represents 16% of all tags.
-![Video Tag Distribution](big_image/video_tags.png)
+![Video Tag Distribution](img/video_tags.png)
 
 ## User Characteristics
 There are 1411 users in the small_matrix table and 1176 in the big_matrix table.  
@@ -22,23 +22,23 @@ In the user_features table, user attributes are represented using one-hot encodi
 
 ## Social Network Analysis
 In this context, a friend means that users mutually follow each other. The analysis shows that very few users have friends (472), and among those who do, most have only one friend.  
-![Friend Distribution](big_image/number%20of%20friends.png)
+![Friend Distribution](img/number%20of%20friends.png)
 
 ## Interaction Analysis
 Videos contain multiple interaction tags found in the item_item_categories and kuairec_caption_category tables.  
 There is low tag variety in interactions. All users share the same tags with the highest interaction levels.  
-![Most Popular Tags](big_image/tag%20distribution.png)  
+![Most Popular Tags](img/tag%20distribution.png)  
 This trend remains consistent throughout the day, with users' most interacted tags changing very little over time.  
-![Tag Distribution Per Hour](big_image/tag%20distribution%20heure.png)  
+![Tag Distribution Per Hour](img/tag%20distribution%20heure.png)  
 This is an example for a given user, but the trend is the same for all users.  
-![Most Popular Tags Per Hour for User 2539](big_image/image.webp)  
+![Most Popular Tags Per Hour for User 2539](img/image.webp)  
 The watch_ratio represents the proportion of the video watched by the user. Its distribution is remarkably uniform, with an average value close to 0.9.  
-![Watch Ratio Distribution](big_image/watch_ratio.webp)  
+![Watch Ratio Distribution](img/watch_ratio.webp)  
 When analyzing tag distribution based on watch_ratio, greater diversity is observed.  
 ![Watch Ratio Distribution by Tag](imgs/average%20watch%20ratio%20per%20tag.png)  
 Similar observations can be made regarding the distribution of creators watched, with low diversity in interactions (two favorite creators for all users) and greater diversity based on watch_ratio.  
-![Creator Distribution](big_image/author%20distribution.png)  
-![Watch Ratio Distribution by Creator](big_image/author%20distribution%20watch%20ratio.png)
+![Creator Distribution](img/author%20distribution.png)  
+![Watch Ratio Distribution by Creator](img/author%20distribution%20watch%20ratio.png)
 
 # Baseline Models
 To establish a benchmark, I started with two simple models based on video popularity and the average watch_ratio of each video. The first model recommends the most popular videos to all users.  
