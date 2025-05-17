@@ -35,7 +35,7 @@ This is an example for a given user, but the trend is the same for all users.
 The watch_ratio represents the proportion of the video watched by the user. Its distribution is remarkably uniform, with an average value close to 0.9.  
 ![Watch Ratio Distribution](img/watch_ratio.webp)  
 When analyzing tag distribution based on watch_ratio, greater diversity is observed.  
-![Watch Ratio Distribution by Tag](imgs/average%20watch%20ratio%20per%20tag.png)  
+![Watch Ratio Distribution by Tag](img/average%20watch%20ratio%20per%20tag.png)  
 Similar observations can be made regarding the distribution of creators watched, with low diversity in interactions (two favorite creators for all users) and greater diversity based on watch_ratio.  
 ![Creator Distribution](img/author%20distribution.png)  
 ![Watch Ratio Distribution by Creator](img/author%20distribution%20watch%20ratio.png)
