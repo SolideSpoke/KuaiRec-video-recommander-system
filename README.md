@@ -6,6 +6,7 @@ As part of this project, the objective was to design an efficient recommendation
 - baseline.ipynb: This script implements the baseline models based on video popularity and average watch_ratio.
 - models/ : This directory contains NCF models .h5 files.
 - ncf.ipynb: This script implements the Neural Collaborative Filtering (NCF) model, including data preparation, model training, and evaluation.
+- requirements.txt: This file lists the required Python packages for the project.
 
 # Dataset Exploration
 The KuaiRec dataset consists of two main matrices: big_matrix.csv, used for training, and small_matrix.csv, used for evaluation. Additional files include item_categories.csv, user_features.csv, social_network.csv, and item_daily_features.csv.
@@ -21,7 +22,7 @@ There are 1411 users in the small_matrix table and 1176 in the big_matrix table.
 In the user_features table, user attributes are represented using one-hot encoding, indicating the corresponding position for each attribute.
 
 ## Social Network Analysis
-In this context, a friend means that users mutually follow each other. The analysis shows that very few users have friends (472), and among those who do, most have only one friend.  
+In this context, a "friend" refers to users who mutually follow each other. The analysis reveals that only a small fraction of users (472) have friends. Among these users, the majority have just one friend. The maximum number of friends observed is 5, with an average of 1.5 friends per user (calculated only for users who have at least one friend).
 ![Friend Distribution](img/number%20of%20friends.png)
 
 ## Interaction Analysis
