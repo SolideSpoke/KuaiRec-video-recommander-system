@@ -1,4 +1,4 @@
-As part of this project, the objective was to design an efficient recommendation system based on the KuaiRec dataset. The challenge was to propose personalized videos to users, leveraging their past interactions, video metadata, user profiles, and a social graph.
+As part of this project, the objective was to design an efficient recommendation system based on the [KuaiRec](https://kuairec.com/) dataset. The challenge was to propose personalized videos to users, leveraging their past interactions, video metadata, user profiles, and a social graph.
 
 # Project Architecture
 - als.ipynb: This script implements the Alternating Least Squares (ALS) model, including data preparation, model training, and evaluation.
